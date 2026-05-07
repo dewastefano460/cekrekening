@@ -10,7 +10,7 @@ export default function Cekrek() {
     "CekRek - Cek Nama Rekening Bank/e-Wallet Indonesia",
   );
   const baseUrl =
-    "https://cekrekening-api.belibayar.online/api/v1/account-inquiry";
+    "https://netovas.com/api/cekrek/v1/account-inquiry";
   const [data, getData] = useState("");
   const [btnClass, setBtnClass] = useState("btn btn-info");
   const [btnSpinner, setBtnSpinner] = useState("hidden");
